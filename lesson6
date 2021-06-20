@@ -1,0 +1,27 @@
+//task 1 
+let result = '';
+let name = prompt ('input your name', '');
+let age = prompt ('input your age', '');
+// check number i don't know how.
+  
+resultName = name;
+resultAge = age;
+
+console.log(resultName + ' is ' + age + ' years old');
+
+//task 2 
+let name = document.querySelector('th');
+console.log(name);
+ 
+document.querySelector('th').style.backgroundColor = "red";
+
+document.querySelector('th').style.fontSize = "42px";
+
+
+let boxes = document.querySelectorAll('tr > th:last-child');
+    for (item of boxes) {
+        console.log(item.style.backgroundColor = 'blue');
+        console.log(item.style.fontSize = '36px');
+        console.log(item.innerHTML);
+        console.log(item);
+    }
