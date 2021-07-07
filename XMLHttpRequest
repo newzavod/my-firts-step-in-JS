@@ -1,0 +1,16 @@
+const requestURL = 'https://jsonplaceholder.typicode.com/comments';
+const xhr = new XMLHttpRequest();
+xhr.open('GET', requestURL);
+xhr.onload = () => {
+    console.log(JSON.parse(xhr.response))
+    let div = document.createElement('div');
+    document.body.appendChild(div);
+    let comment = JSON.parse(xhr.response);
+    for (let i = 0; i < 30; i++) {
+        let p = document.createElement('p');
+        p.textContent = `Name: ${comment[i].name}, Email:${comment[i].email}, Body:${comment[i].email}`;
+        div.appendChild(p);
+    }
+};
+
+xhr.send();
