@@ -1,0 +1,7 @@
+let message = (isNaN(primeNumber)) ? 'is not a number' :
+    (primeNumber < 0) ? ('input only positive number') :
+        (primeNumber % 100 == 0 || primeNumber % 100 > 4 && primeNumber % 100 < 20) ? 'Джамшутов' :
+            (primeNumber % 10 == 2 || primeNumber % 10 == 3 || primeNumber % 10 == 4) ? 'Джамшута' :
+                'Джамшут';
+
+console.log(message);
