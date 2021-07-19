@@ -1,0 +1,11 @@
+function declensionWord(number, txt) {
+    let cases = [2, 0, 1, 1, 1, 2];
+    return txt[(number % 100 > 4 && number % 100 < 20) ? 2 : cases[(number % 10 < 5) ? number % 10 : 5]];
+};
+
+let word = 'Джамшут';
+let endOfWord = [' ', 'а', 'ов'];
+let num = prompt('input any one prime positive number', '1');
+let result = ` ${num} ${word}${declensionWord(num, endOfWord)}`;
+
+console.log(result);
