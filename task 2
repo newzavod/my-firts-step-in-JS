@@ -1,0 +1,133 @@
+const person_1 = {
+    name: 'Энни',
+    age: 4,
+    city: 'Лондон',
+    gender: 'женский',
+    hobby: ['рисование', 'игры',],
+    relatieves: [
+        { mother: 'Сара' },
+        { father: 'Энрике' },
+        { child: 'отсутствует' },
+        { spouse: 'отсутствуете' },
+        { motherInLaw: 'отсутствует' },
+        { fatherInLaw: 'отсутствует' },
+        { grandParent: ['Келли', 'Джим', 'Николай', 'неизвестно'] }
+    ],
+};
+
+const person_2 = {
+    name: 'Энрике',
+    job: 'програмист',
+    age: 30,
+    city: 'Лондон',
+    hobby: ['бег', 'свежий сок'],
+    gender: 'мужской',
+    married: true,
+    relatieves: [
+        { mother: 'неизвестно' },
+        { father: 'неизвестно' },
+        { stepfather: 'Николай' },
+        { child: 'Энни' },
+        { spouse: 'Сара' },
+        { motherInLaw: 'Келли' },
+        { fatherInLaw: 'Джим' },
+    ],
+};
+
+const person_3 = {
+    name: 'Сара',
+    job: 'юрист',
+    age: 30,
+    city: 'Лондон',
+    hobby: ['сериалы', 'журналистика'],
+    gender: 'женский',
+    married: true,
+    relatieves: [
+        { mother: 'Келли' },
+        { father: 'Джим' },
+        { child: 'Энни' },
+        { spouse: 'Энрике' },
+        { motherInLaw: 'неизвестно' },
+        { fatherInLaw: 'Николай' },
+    ],
+};
+
+const person_4 = {
+    name: 'Джим',
+    job: 'пенсионер',
+    age: 60,
+    city: 'Манчестер',
+    hobby: 'путешестивия',
+    gender: 'мужской',
+    relatieves: [
+        { mother: 'неизвестно' },
+        { father: 'неизвестно' },
+        { child: 'Сара' },
+        { spouse: 'Келли' },
+        { motherInLaw: 'неизвестно' },
+        { fatherInLaw: 'неизвестно' },
+        { coParentInLaw: ['неизвестно', 'Николай'] },
+        { grandChild: '"Энни' },
+        { childInLaw: 'Энрике' }
+    ],
+};
+
+const person_5 = {
+    name: 'Келли',
+    job: 'пенсионер',
+    age: 60,
+    city: 'Манчестер',
+    hobby: 'путешестивия',
+    gender: 'женский',
+    relatieves: [
+        { mother: 'неизвестно' },
+        { father: 'неизвестно' },
+        { child: 'Сара' },
+        { spouse: 'Джим' },
+        { motherInLaw: 'неизвестно' },
+        { fatherInLaw: 'неизвестно' },
+        { coParentInLaw: ['неизвестно', 'Николай'] },
+        { grandChild: 'Энни' },
+        { childInLaw: 'Энрике' }
+    ],
+};
+
+const person_6 = {
+    name: 'Николай',
+    job: 'начальник охраны',
+    age: 70,
+    city: 'Ливерпуль',
+    hobby: 'скрипка',
+    gender: 'мужской',
+    relatieves: [
+        { mother: 'неизвестно' },
+        { father: 'неизвестно' },
+        { child: 'Энрике' },
+        { spouse: 'неизвестно' },
+        { motherInLaw: 'неизвестно' },
+        { fatherInLaw: 'неизвестно' },
+        { coParentInLaw: ['Джим', 'Келли'] },
+        { grandChild: 'Энни' },
+        { childInLaw: 'Сара' }
+    ],
+};
+
+const person_7 = {
+    name: 'неизвестно',
+    job: 'неизвестно',
+    age: 66,
+    city: 'Ливерпуль',
+    hobby: 'неизвестно',
+    gender: 'женский',
+    relatieves: [
+        { mother: 'неизвестно' },
+        { father: 'неизвестно' },
+        { child: 'Энрике' },
+        { spouse: 'Николай' },
+        { motherInLaw: 'неизвестно' },
+        { fatherInLaw: 'неизвестно' },
+        { coParentInLaw: ['Джим', 'Келли'] },
+        { grandChild: 'Энни' },
+        { childInLaw: 'Сара' }
+    ],
+};
